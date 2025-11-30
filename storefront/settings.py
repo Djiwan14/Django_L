@@ -36,6 +36,7 @@ INSTALLED_APPS = [
     'django.contrib.contenttypes',
     'django.contrib.messages', # for displaying one time notifications for users
     'django.contrib.staticfiles', # for displaying static files
+    'playground'
 ]
 
 MIDDLEWARE = [
