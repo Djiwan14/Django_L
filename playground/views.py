@@ -6,7 +6,10 @@ from django.http import HttpResponse
 # request handler
 
 def say_hello(request):
-    return HttpResponse('Hello world!')
+    return render(request, 'hello.html')
 
 def intro(request):
     return HttpResponse("Hey, It is me!")
+
+def play(request):
+    return HttpResponse("Playing, playing")
